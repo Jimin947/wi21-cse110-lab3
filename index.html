@@ -1,1 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <title>Lab 2 for CSE110</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  </head>
+  
+  <header>
+  	<h1>Jimin's Lab 2</h1>
+ 	<h2>For CSE110</h2>
+  </header>
+
+  <hr>
+
+  <body>
+    <main>
+      <h3>Contact Me!</h3>
+      <ul>
+          <li><a href="mailto:jicheon@ucsd.edu">jicheon@ucsd.edu</a></li>
+      </ul>
+
+      <hr>
+
+        <section>
+        	<div>
+
+              <h3>About Me:</h3>
+              <p style="color:green;">I am a returning UCSD student after finishing my service! Hooah!</p>
+              <h4><em>Favorite Hobbies</em></h4>
+              <ol>
+              	<li>Sleeping</li>
+                <li>Playing Video Games</li>
+              </ol>
+              
+              <figure>
+            	<img src="https://singularityhub.com/wp-content/uploads/2019/02/learning-while-sleeping-neuroscience-shutterstock-686222875-1068x601.png"
+                	width="600" height="450" alt="Bed">
+            	<figcaption>A <b>bed</b>, a place <i>I don't want to leave</i></figcaption>
+        	  </figure>
+
+              <aside>
+                  <h4>My Service</h4>
+                  <p>I was stationed in <strong>Camp Casey and Camp Humphreys</strong> under 2nd Infrantry Division.</p>
+                  
+                  <picture>
+                    <source media="(min-width:100px)" srcset="https://upload.wikimedia.org/wikipedia/commons/3/3c/2nd-infantry-division-united-states-army-shoulder-indian-army.png">
+                  	<img src="" alt="2ID" style="width:100;">
+                  </picture>
+                  
+                  <nav>
+                      <a href="/https://www.youtube.com/watch?v=zEgCYGpmivs/">2ID</a> |
+                      <a href="/https://www.youtube.com/watch?v=1kesK2rh6Mo/">2ID Song</a>
+                  </nav>
+              </aside>
+            
+            </div>
+        </section>
+        
+		  <hr>
+
+        <section>
+        	<div>
+            
+            <h3>Current Situation</h3>
+            <p>Despite finishing my <span style="color:darkolivegreen;font-weight:bold">military service</span>, I haven't been able to return to the U.S.. <br> Hopefully, I will be back by spring quarter.</p>
+
+          </div>
+           
+       <hr>
+            
+          <div>
+
+            <h3>Cool Fact!</h3>
+            <p>If you type <code>ls</code> in the terminal, you can see all the files in your current directory</p>
+
+            <iframe src="https://man7.org/linux/man-pages/man1/ls.1.html" title="ls man page"></iframe>
+
+            <pre>
+                <p>HOOAH!</p>
+            </pre>
+          </div>
+            
+       <hr>
+            
+          <div>
+            <h4>Some Random Stuff</h4>
+
+            <p>Good Jams</p>
+            <audio controls src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3">
+            </audio>  
+
+            <template>
+              <p>Secret</p>
+            </template>
+            <p>Cool Video</p>
+            <video controls src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" width="214"
+              height="204" type = "video/mp4"></video>
+
+
+            <p>Drawing</p>
+            <canvas id="canvas" width="200" height="100" style="border:1px solid #000000;">
+            </canvas>
+
+            <script>
+              var c = document.getElementById("canvas");
+              var ctx = c.getContext("2d");
+              ctx.moveTo(0,0);
+              ctx.lineTo(100,100);
+              ctx.stroke();
+            </script>
+
+            <p>Rando Recto</p>
+
+            <svg width="200" height="100">
+            <rect width="200" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,156,0)" /></svg>
+
+            <p>Inputs and Outputs</p>
+
+            <form>
+              <fieldset>
+
+                <label for="estimate">Slider:</label>
+                <input type="range" id="estimate" name="estimate" min="0" max="100"><br><br>
+
+                <label for="counter">Counter: (between 1 and 3):</label>
+                <input type="number" id="count" name="counter" min="1" max="3"><br><br>
+
+                <label for="box">Type Box:</label>
+                <input type="text" id="box" name="box"><br><br>
+
+                <label for="file">Upload:</label>
+                <input type="file" id="file" name="file"><br><br>
+
+                <label for="color">Colors:</label>
+                <input type="color" id="color" name="color"><br><br>
+
+                <label for="date">Birthday:</label>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="Car">Choose a car:</label>
+                 <select name="car" id="car">
+
+                   <optgroup label="cars">
+                           <option value="car">Nada</option>
+                   </optgroup>
+
+                   <optgroup label="Nice cars">
+                     <option value="Lambo">Carbonated water</option>
+                     <option value="BMW">Coca-cola</option>
+                     <option value="Benz">Pepsi</option>
+                   </optgroup>
+                 </select>
+
+                <p>Mood</p>
+                <input type="radio" id="class" name="find" value="30">
+                <label for="class">Good</label><br>
+                <input type="radio" id="random" name="find" value="60">
+                <label for="random">Bad</label><br><br>  
+
+                <label for="phones">Choose your phone:</label>
+                  <input list="phones" name="phone" id="phone">
+                    <datalist id="galaxy">
+                    <option value="iphone">
+                    <option value="Nokia">
+                    </datalist>
+
+              <label for="check1">CheckBox:</label>
+              <input type="checkbox" id="check" name="check1"><br><br>
+
+
+
+              </fieldset>
+            </form>
+
+            <table>
+            <caption>Table Test</caption>
+              <tr>
+                <th scope="col">Row</th>
+                  <th scope="col">Num</th>
+                  <th scope="col">Luck</th>
+
+              </tr>
+              <tr>
+                  <th scope="row">0</th>
+                  <td>1</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <th scope="row">1</th>
+                  <td>3</td>
+                  <td>4</td>
+              </tr>
+            </table>
+
+          </div>
+      </section>
+        
+    </main>>
+  </body> 
+        <footer>
+            <p>Page author: Jimin Cheon</p>
+            
+            <details>
+            	<summary>Psssh..</summary>
+                <p>The gist is that I'm a chill guy</p>
+            </details>
+            <a href="mailto:jicheon@ucsd.edu">jicheon@ucsd.edu</a> <br><br>
+                            
+            <label for="comment">Comment:</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50">Leave some feedback!
+                  </textarea>
+            <br><br>
+            <input type="submit" value="Submit"><br><br>
+        </footer>
+</html>
