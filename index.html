@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   </head>
   
-  <header>
-  	<h1>Jimin's Lab 2</h1>
- 	<h2>For CSE110</h2>
-  </header>
-
   <body>
+    <header>
+      <h1>Jimin's Lab 2</h1>
+      <h2>For CSE110</h2>
+    </header>
+	  
     <main>
       <h3>Contact Me!</h3>
       <ul>
@@ -44,7 +44,7 @@
                   
                   <picture>
                     <source media="(min-width:100px)" srcset="https://upload.wikimedia.org/wikipedia/commons/3/3c/2nd-infantry-division-united-states-army-shoulder-indian-army.png">
-                  	<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/2nd-infantry-division-united-states-army-shoulder-indian-army.png" alt="2ID" style="width:100;">
+                  	<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/2nd-infantry-division-united-states-army-shoulder-indian-army.png" alt="2ID" style="width:auto;">
                   </picture>
                   
                   <nav>
@@ -76,7 +76,7 @@
             <iframe src="https://man7.org/linux/man-pages/man1/ls.1.html" title="ls man page"></iframe>
 
             <pre>
-                <p>HOOAH!</p>
+              HOOAH!
             </pre>
           </div>
             
@@ -92,9 +92,13 @@
             <template>
               <p>Secret</p>
             </template>
+		  
             <p>Cool Video</p>
-            <video controls src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" width="214"
-              height="204" type = "video/mp4"></video>
+		  
+	    <video width="320" height="240" controls>
+  	      <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
 
 
             <p>Drawing</p>
@@ -145,9 +149,9 @@
                    </optgroup>
 
                    <optgroup label="Nice cars">
-                     <option value="Lambo">Carbonated water</option>
-                     <option value="BMW">Coca-cola</option>
-                     <option value="Benz">Pepsi</option>
+                     <option value="Lambo">Lambo</option>
+                     <option value="BMW">Bmw</option>
+                     <option value="Benz">Benz</option>
                    </optgroup>
                  </select>
 
@@ -158,7 +162,7 @@
                 <label for="random">Bad</label><br><br>  
 
                 <label for="phones">Choose your phone:</label>
-                  <input list="lists" name="phone" id="phones">
+                  <input list="lists" name="phones" id="phones">
                     <datalist id="lists">
                     <option value="iphone">
                     <option value="galaxy">
@@ -210,6 +214,7 @@
             <br><br>
             <input type="submit" value="Submit"><br><br>
         </footer>
-    </main>>
+    </main>
   </body> 
 </html>
+
