@@ -37,6 +37,7 @@ header > h1 {
 
 div ~ p {
   margin:auto;
+  padding: 0.4cm 10mm;
 }
 
 h4 + ol {
@@ -44,6 +45,26 @@ h4 + ol {
   margin-bottom: 10px;
   margin-right: 100px;
   margin-left: 16px;
+  max-width: 25%;
+  min-wdith: 10%
 }
 
+h1 { 
+	margin: 25px 25px 25px 25px;
+	border-style: solid;
+  border-color: green;
+  border-width: 10px;
+  border-radius: 30%;
+  padding-top:25px;
+  padding-bottom:25px;
+  padding-left:300px;
+  padding-right:10px;
+  height: 30px;
+  width: 57%;
+  display: block;
+}
+
+h2 {
+  display: none;
+}
 
