@@ -102,8 +102,14 @@ a[href^="mail"]{
 .grid-item {
   background-color: white;
   border: 10px solid black;
-  padding: 10px;
-  font-size: 30px;
+  padding: 10vim;
+  font-size: 2em;
   text-align: center;
   color: red;
+}
+
+@media only screen and (max-width: 800px){
+  *{
+    background-color: burlywood;
+  }
 }
