@@ -16,6 +16,7 @@ p{
 
 a[href^="mail"]{
   color: green;
+  position: static;
 }
 
 a:hover{
@@ -66,5 +67,43 @@ h1 {
 
 h2 {
   display: none;
+  position: fixed;
 }
 
+a[href^="mail"]{
+  color: green;
+  position: static;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.flex-container > div {
+  background-color: grey;
+  width: 80px;
+  margin: 5px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 25px;
+}
+
+.grid-container {
+  display: grid;
+  background-color: blue;
+  margin: auto;
+  padding: 15px;
+}
+.grid-item {
+  background-color: white;
+  border: 10px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
