@@ -23,8 +23,15 @@ a:hover{
   color: #FF00FF;
 }
 
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/audiowide/v9/l7gdbjpo0cum0ckerWCdmA_OMRlABolM.woff2) format('woff2');
+}
+
 h1, h2, h3, h4{
-  font-family: "Audiowide", sans-serif;
+  font-family: 'Audiowide';
 }
 
 /*Combine two selectors + descedent*/
